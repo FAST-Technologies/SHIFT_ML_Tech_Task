@@ -5,7 +5,7 @@ print("\nСоздание архива submission.zip...")
 with zipfile.ZipFile('submission.zip', 'w', zipfile.ZIP_DEFLATED) as zipf:
     zipf.write('data/submission.csv')
     zipf.write('data/requirements.txt')
-    zipf.write('notebooks/competition.ipynb')
+    zipf.write('notebooks/baseline.ipynb')
 
 print("Архив submission.zip создан успешно!")
 print("\nСодержимое архива:")
